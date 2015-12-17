@@ -12,6 +12,10 @@
 		87165E3A1C224F8600102F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87165E381C224F8600102F10 /* Main.storyboard */; };
 		87165E3C1C224F8600102F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87165E3B1C224F8600102F10 /* Assets.xcassets */; };
 		87165E3F1C224F8600102F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87165E3D1C224F8600102F10 /* LaunchScreen.storyboard */; };
+		87165E471C224FE800102F10 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87165E461C224FE800102F10 /* FirstViewController.swift */; };
+		87165E491C22504F00102F10 /* tabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87165E481C22504F00102F10 /* tabbarController.swift */; };
+		87165E4B1C2251AF00102F10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87165E4A1C2251AF00102F10 /* SecondViewController.swift */; };
+		87165E4D1C2251DC00102F10 /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87165E4C1C2251DC00102F10 /* SecondDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		87165E3B1C224F8600102F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87165E3E1C224F8600102F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87165E401C224F8600102F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87165E461C224FE800102F10 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		87165E481C22504F00102F10 /* tabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabbarController.swift; sourceTree = "<group>"; };
+		87165E4A1C2251AF00102F10 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		87165E4C1C2251DC00102F10 /* SecondDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				87165E341C224F8600102F10 /* AppDelegate.swift */,
 				87165E361C224F8600102F10 /* ViewController.swift */,
 				87165E381C224F8600102F10 /* Main.storyboard */,
+				87165E461C224FE800102F10 /* FirstViewController.swift */,
+				87165E4A1C2251AF00102F10 /* SecondViewController.swift */,
+				87165E4C1C2251DC00102F10 /* SecondDetailViewController.swift */,
+				87165E481C22504F00102F10 /* tabbarController.swift */,
 				87165E3B1C224F8600102F10 /* Assets.xcassets */,
 				87165E3D1C224F8600102F10 /* LaunchScreen.storyboard */,
 				87165E401C224F8600102F10 /* Info.plist */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87165E4D1C2251DC00102F10 /* SecondDetailViewController.swift in Sources */,
+				87165E471C224FE800102F10 /* FirstViewController.swift in Sources */,
+				87165E491C22504F00102F10 /* tabbarController.swift in Sources */,
 				87165E371C224F8600102F10 /* ViewController.swift in Sources */,
+				87165E4B1C2251AF00102F10 /* SecondViewController.swift in Sources */,
 				87165E351C224F8600102F10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
